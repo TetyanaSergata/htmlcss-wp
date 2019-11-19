@@ -79,13 +79,21 @@ body {
   text-transform: uppercase;
   padding: 0 10px;
   border-right: 1px solid #302B27;
-
-
+  border-left: 1px solid #47423e;
 }
+
+
 .header-bottom nav ul li a:hover{
   background-color: #302B27;
 }
 
+.header-bottom nav ul li:last-child a{
+  border-right: 0;
+}
+
+.header-bottom nav ul li:first-child a{
+  border-left: 0;
+}
 /* main */
 
 main {
