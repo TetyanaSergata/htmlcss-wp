@@ -36,7 +36,6 @@ body {
   text-align: center;
 }
 
-
 .container-logo img{
   text-align: center;
   width: 80%;
@@ -69,7 +68,6 @@ body {
 
 .header-bottom nav ul li{
   display: inline-block;
-
 }
 
 .header-bottom nav ul li a{
@@ -80,8 +78,8 @@ body {
   padding: 0 10px;
   border-right: 1px solid #302B27;
   border-left: 1px solid #47423e;
+  font-size: 15px;
 }
-
 
 .header-bottom nav ul li a:hover{
   background-color: #302B27;
@@ -94,8 +92,8 @@ body {
 .header-bottom nav ul li:first-child a{
   border-left: 0;
 }
-/* main */
 
+/* main */
 main {
   padding-top: 10px;
 }
@@ -113,7 +111,53 @@ main::after {
 
 .col-left,
 .col-right {
+  /* float: left; */
   width: 20%;
+  /* background-color: white; */
+}
+
+/* .col .col-left{
+  margin:5px;
+} */
+.box-menu .list{
+  margin: 5px;
+}
+
+.box-menu ul{
+  list-style-type:none;
+}
+
+.box-menu ul li {
+  padding: 5px 0;
+}
+
+.box-menu ul li a{
+  color: green;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.col-left-header::after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.col-left-header i,
+.col-left-header h3{
+  float: left;
+
+}
+
+.col-left-header h3{
+  width: 60%;
+}
+
+.col-left-header i{
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: orange;
 }
 
 .col-center {
